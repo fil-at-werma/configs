@@ -5,9 +5,15 @@ line-number = "relative"
 true-color = true
 bufferline = "always"
 color-modes = true
+rulers = [80]
+
+[editor.soft-wrap]
+enable = false
+wrap-at-text-width = true
 
 [editor.lsp]
 display-messages = true
+display-inlay-hints = true
 
 [keys.insert]
 esc = ["collapse_selection", "normal_mode"]
