@@ -6,10 +6,14 @@ true-color = true
 bufferline = "always"
 color-modes = true
 rulers = [80]
+end-of-line-diagnostics = "hint"
 
 [editor.soft-wrap]
 enable = false
 wrap-at-text-width = true
+
+[editor.inline-diagnostics]
+cursor-line = "error"
 
 [editor.lsp]
 display-messages = true
